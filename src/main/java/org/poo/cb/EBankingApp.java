@@ -40,12 +40,12 @@ public class EBankingApp {
 
     public void addFriend(String emailUser, String emailFriend) {
         if (!usersEmails.containsKey(emailUser)) {
-            System.out.println("User with " + emailUser + " already exists");
+            System.out.println("User with " + emailUser + " doesn't exist");
             return;
         }
 
         if (!usersEmails.containsKey(emailFriend)) {
-            System.out.println("User with " + emailFriend + " already exists");
+            System.out.println("User with " + emailFriend + " doesn't exist");
             return;
         }
 
